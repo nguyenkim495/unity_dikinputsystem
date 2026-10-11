@@ -1,0 +1,33 @@
+{
+  "name": "dik.inputsystem",
+  "version": "1.1.0",
+  "displayName": "Dik Input System",
+  "description": "A reusable layer on top of Unity's Input System, modelled on Unreal Engine 5 Enhanced Input. It adds prioritised Input Mapping Contexts, separate UI and Gameplay input layers, automatic device pairing and hot-swap, rebinding that is saved between sessions, and command routing that is the same offline and with any netcode (client sends, server processes).",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0"
+  },
+  "keywords": [
+    "input",
+    "inputsystem",
+    "enhanced input",
+    "mapping context",
+    "multiplayer",
+    "netcode"
+  ],
+  "author": {
+    "name": "Dik"
+  },
+  "samples": [
+    {
+      "displayName": "Basic",
+      "description": "Character driven by DikInputReceiver, pause flow with UI/Gameplay isolation, device display and rebind button.",
+      "path": "Samples~/Basic"
+    },
+    {
+      "displayName": "Netcode for GameObjects Bridge",
+      "description": "Example IInputNetworkBridge for Unity Netcode for GameObjects (requires com.unity.netcode.gameobjects).",
+      "path": "Samples~/NetcodeForGameObjects"
+    }
+  ]
+}
