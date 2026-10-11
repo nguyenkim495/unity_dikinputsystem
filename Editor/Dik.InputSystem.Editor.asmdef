@@ -1,0 +1,19 @@
+{
+    "name": "Dik.InputSystem.Editor",
+    "rootNamespace": "Dik.Input.Editor",
+    "references": [
+        "Dik.InputSystem",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
